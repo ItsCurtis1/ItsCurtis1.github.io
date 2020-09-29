@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+   margin: 0;
+   text-allign: center;
+}
+
+/* header
+=========== */
+
+header {
+   margin-top: len;
+}
+
+nav ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+nav li {
+   display: inline-block;
+   margin: lem;
+}

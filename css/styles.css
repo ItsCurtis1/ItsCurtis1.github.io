@@ -1,0 +1,123 @@
+* {
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	text-align: center;
+}
+
+/*header
+=========== */
+
+header{
+	position: absolute;
+	margin-top: len;
+	left: 0;
+	right: 0;
+	margin: lem;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: right;
+}
+
+nav li{
+	display: inline-block;
+	margin: lem;
+}
+
+nav a {
+	font-weight: 900;
+	text-decoration: none;
+	text-transform: uppercase; 
+	font-size: .8;	
+	padding: .5em;
+	color: #fff;
+}
+
+
+ /* home-hero
+  ================*/
+
+ .home-hero {
+	background-image:
+	url(../Images/tii.png);
+	padding: 210px 0;
+	background-size: cover;
+	background-position: center;
+	color: #FFF;
+}
+ h1 {
+	font-weight: 300;
+	font-size: 35px;
+	margin-top: 0;
+ }
+
+ .title {
+	color: white;
+	font-size: 2.5rem;
+	margin-top: 1em;
+	margin-bottom: 1.5em;
+	font-weight: 900;
+
+}
+
+.title {
+	font-weight: 300;
+    display: block;
+}
+img {s
+	max-width: 100%;
+	height: auto;
+}
+
+.container {
+	width: 95%
+	margin: 0 auto;
+}
+
+.button {
+	text-decoration: none;
+	text-transform: uppercase;
+	border-width: 2px;
+	border-style: solid;
+	display: inline-block;
+}
+
+.button-accent {
+	color: #00ff6c;
+	border-color:#232323;
+}
+
+.button-accent:hover,
+.button-accent:focus {
+	background: #00ff6c;
+	color: #232323;
+}
+
+
+.home-about-textbox {
+	width: 60%;
+	text-align: left;
+	position: relative;
+	background-color: #232323;
+	padding: 4em;
+	width: 100vw;
+	outline: #00ff6c;
+	outline-offset: -2.5em;
+	color: #fff;
+}
+
+.home-about-textbox h1 {
+	color:#00ff6c;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	top: .3em;
+	background: #232323;
+	
+}
